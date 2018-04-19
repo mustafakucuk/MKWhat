@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>MKWhat</title>
+  <meta name="description" content="Without add any number your contacts you can send fast messages. Easy and fast!">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="mkwhat.js"></script>
+</head>
+<body>
+  <div id="mkWhat">
+    <h2 id="title">Send Whatsapp Message!</h2>
+    <input type="text" placeholder="Phone Number" id="phoneNumber">
+    <textarea placeholder="Your message" id="message"></textarea>
+    <div id="sendButton" onclick="sendMessage()">SEND MESSAGE</div>
+  </div>
+  <style>
+    body{ width: 300px; background:#47c656}
+    #mkWhat{ padding: 10px }
+    #mkWhat input, textarea{ width:93%; padding: 10px; margin-bottom:10px; font-size:19px }
+    #sendButton{ padding:10px; width: 93%; background: #292292; color:#fff; font-size:18px; text-align:center; cursor: pointer; }
+    #title{ color:#fff; text-align: center }
+  </style>
+</body>
+</html>
